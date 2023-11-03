@@ -106,6 +106,8 @@ fn PageNotFound(cx: Scope, route: Vec<String>) -> Element {
 }
 
 fn main() {
+    dotenv().ok()
+
     LaunchBuilder::new(App).launch();
 }
 

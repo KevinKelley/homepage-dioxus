@@ -10,6 +10,7 @@ wasm-bindgen = "=0.2.87"
 dioxus = "0.4.0"
 dioxus-fullstack = "0.4.1"
 dioxus-router = "0.4.1"
+dotenv = "0.15.0"
 
 [features]
 default = []
