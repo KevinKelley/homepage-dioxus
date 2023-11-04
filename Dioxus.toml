@@ -45,4 +45,5 @@ style = []
 script = []
 
 [[web.proxy]]
+frontend = "http://localhost:7070/"
 backend = "http://localhost:7070/api/"

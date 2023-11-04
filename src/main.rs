@@ -105,8 +105,12 @@ fn PageNotFound(cx: Scope, route: Vec<String>) -> Element {
     }
 }
 
+se axum_desktop::*;
+use dioxus_fullstack::prelude::server_fn::set_server_url;
+
 fn main() {
-    dotenv().ok()
+    // Set the url of the server where server functions are hosted.
+    set_server_url("http://127.0.0.1:6060");
 
     LaunchBuilder::new(App).launch();
 }
