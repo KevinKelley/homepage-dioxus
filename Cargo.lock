@@ -1235,10 +1235,13 @@ checksum = "d77f7ec81a6d05a3abb01ab6eb7590f6083d08449fe5a1c8b1e620283546ccb7"
 name = "homepage"
 version = "0.1.0"
 dependencies = [
+ "axum",
  "dioxus",
  "dioxus-fullstack",
  "dioxus-router",
  "dotenv",
+ "serde",
+ "tokio",
  "wasm-bindgen",
 ]
 
