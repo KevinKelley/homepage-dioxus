@@ -4,7 +4,7 @@ use leptos::*;
 #[component]
 pub fn NavBar() -> impl IntoView {
 
-let labels = vec!["A".to_string(), "B".to_string(), "C".to_string()];
+let labels = vec!["Alpha".to_string(), "Beta".to_string(), "Gamma".to_string(), "Delta".to_string(), "Rho".to_string()];
 
 view! {
 
@@ -30,7 +30,7 @@ view! {
 
 
 }
-
+/////////////////////////////////////////////////////////////////
 #[component]
 fn HomePage() -> impl IntoView {
     // these are the files we’re going to read
@@ -57,7 +57,7 @@ fn Tabs(labels: Vec<String>) -> impl IntoView {
         </div>
     }
 }
-
+/////////////////////////////////////////////////////////////
 #[component]
 fn Tab(index: usize, children: Children) -> impl IntoView {
     view! {
