@@ -4,4 +4,48 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+gloo = "0.10.0"
 leptos = { version = "0.5.2", features = ["csr", "nightly"] }
+leptos_router = "0.5.2"
+wasm-bindgen = "= 0.2.88"
+wasm-bindgen-cli = "= 0.2.88"
+
+
+
+
+[[workspace.metadata.leptos]]
+# project name
+name = "kevkevdev"
+bin-package = "main"
+lib-package = "front"
+
+# more configuration parameters...
+
+
+
+
+
+
+# Example of customizing binaries in Cargo.toml.
+#[[bin]]
+#name = "cool-tool"
+#test = false
+#bench = false
+
+#[[bin]]
+#name = "frobnicator"
+#required-features = ["frobnicate"]
+
+#[[example]]
+#name = "foo"
+#crate-type = ["staticlib"]
+
+
+#stylers = { version = "*" }
+#[build-dependencies]
+#stylers = { version = "*" }
+
+#[[hooks]]
+#stage = "post_build"
+#command = "sh"
+#command_arguments = ["-c", "cp ./target/main.css $TRUNK_STAGING_DIR/"]
